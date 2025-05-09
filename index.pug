@@ -1,0 +1,95 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title WebStudio
+    link(rel="stylesheet" href="style.css")
+    head
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet")
+
+  body
+    header.header
+      .header__container(data-inner)
+        .container__logo
+          a(href="index.html") Web
+            span Studio
+        nav
+          ul.header__nav
+            li
+              a(href="index.html") Студія
+            li
+              a(href="portfolio.html") Портфоліо
+            li
+              a(href="#") Контакти
+        address.header__contacts
+          a(href="mailto:info@devstudio.com" class="footer__address-link") info@devstudio.com
+          a(href="tel:+38096111111" class="footer__address-link") +38 096 111 11 11
+
+    main.main
+      .main__container(data-inner)
+        .main__title Ефективні рішення для 
+          br
+          | вашого бізнесу
+        button.main__btn Замовити послугу
+
+    section.features
+      .features__container(data-inner)
+        .features__cards
+          .features__card
+            h3.features__card-title УВАГА ДО ДЕТАЛЕЙ
+            p.features__card-text Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+          .features__card
+            h3.features__card-title ПУНКТУАЛЬНІСТЬ
+            p.features__card-text Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+          .features__card
+            h3.features__card-title ПЛАНУВАННЯ
+            p.features__card-text Так само консультація з широким активом значною мірою зумовлює.
+          .features__card
+            h3.features__card-title СУЧАСНІ ТЕХНОЛОГІЇ
+            p.features__card-text Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+
+    section.specialties 
+      .specialties__container(data-inner)
+        h2.container__section-title Чим ми займаємося
+        .specialties__cards
+          .specialties__card
+            img(specialties__card-img src="src/images/specialties__card-img1.jpg" alt="")
+          .specialties__card
+            img(specialties__card-img src="./src/images/specialties__card-img2.png" alt="")
+          .specialties__card
+            img(specialties__card-img src="./src/images/specialties__card-img3.png" alt="")
+
+    section.team
+      .team__container(data-inner)
+        h2.container__section-title Наша команда
+        .team__cards
+          .team__card
+            img(team__card-img src="./src/images/team__card-img1.jpg" alt="")
+            h3.team__card-title Ігор Дем’яненко
+            p.team__card-text Product Designer
+          .team__card
+            img(team__card-img src="./src/images/team__card-img2.jpg" alt="")
+            h3.team__card-title Ольга Рєпіна
+            p.team__card-text Frontend Developer
+          .team__card
+            img(team__card-img src="./src/images/team__card-img3.jpg" alt="")
+            h3.team__card-title Микола Тарасов
+            p.team__card-text Marketing
+          .team__card
+            img(team__card-img src="./src/images/team__card-img4.jpg" alt="")
+            h3.team__card-title Михайло Єрмаков
+            p.team__card-text UI Designer
+
+    footer.footer
+      .footer__container(data-inner)
+        .footer__box
+          .container__logo
+            a(href="#") Web
+              span Studio
+          address.footer__contacts
+            p.footer__address-text м. Київ, пр-т Лесі Українки, 26
+            a(href="mailto:info@devstudio.com" class="footer__address-link") info@devstudio.com
+            a(href="tel:+38096111111" class="footer__address-link") +38 096 111 11 11

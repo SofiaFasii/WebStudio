@@ -1,0 +1,93 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title WebStudio
+    link(rel="stylesheet" href="style.css")
+    head
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet")
+
+  body
+    header.header
+      .header__container(data-inner)
+        .container__logo
+          a(href="index.html") Web
+            span Studio
+        nav
+          ul.header__nav
+            li
+              a(href="index.html") Студія
+            li
+              a(href="portfolio.html") Портфоліо
+            li
+              a(href="#") Контакти
+        address.header__contacts
+          a(href="mailto:info@devstudio.com" class="footer__address-link") info@devstudio.com
+          a(href="tel:+38096111111" class="footer__address-link") +38 096 111 11 11
+
+    main.main-portfolio
+      .main-portfolio__container(data-inner)
+        nav
+          ul.main__nav 
+            li
+              a(href="#") Усі
+            li
+              a(href="#") Веб-сайти
+            li
+              a(href="#") Додатки
+            li
+              a(href="#") Дизайн
+            li
+              a(href="#") Маркетинг
+
+        .main-portfolio__cards 
+          .main__card 
+            img(main__card-img src="src/images/main__card-img1.png", alt="")
+            h3.main__card-title Технокряк
+            p.main__card-text Веб-сайт
+          .main__card 
+            img(main__card-img src="src/images/main__card-img2.png", alt="")
+            h3.main__card-title Постер New Orlean vs Golden Star
+            p.main__card-text Дизайн
+          .main__card 
+            img(main__card-img src="src/images/main__card-img3.png", alt="")
+            h3.main__card-title Ресторан Seafood
+            p.main__card-text Додаток
+          .main__card 
+            img(main__card-img src="src/images/main__card-img4.png", alt="")
+            h3.main__card-title Проєкт Prime
+            p.main__card-text Маркетинг
+          .main__card 
+            img(main__card-img src="src/images/main__card-img5.png", alt="")
+            h3.main__card-title Проєкт Boxes
+            p.main__card-text Додаток
+          .main__card 
+            img(main__card-img src="src/images/main__card-img6.png", alt="")
+            h3.main__card-title Inspiration has no Borders
+            p.main__card-text Веб-сайт
+          .main__card 
+            img(main__card-img src="src/images/main__card-img7.png", alt="")
+            h3.main__card-title Видання Limited Edition
+            p.main__card-text Дизайн
+          .main__card 
+            img(main__card-img src="src/images/main__card-img8.png", alt="")
+            h3.main__card-title Проєкт LAB
+            p.main__card-text Маркетинг
+          .main__card 
+            img(main__card-img src="src/images/main__card-img9.png", alt="")
+            h3.main__card-title Growing Business
+            p.main__card-text Додаток
+
+    footer.footer
+      .footer__container(data-inner)
+        .footer__box
+          .container__logo
+            a(href="#") Web
+              span Studio
+          address.footer__contacts
+            p.footer__address-text м. Київ, пр-т Лесі Українки, 26
+            a(href="mailto:info@devstudio.com" class="footer__address-link") info@devstudio.com
+            a(href="tel:+38096111111" class="footer__address-link") +38 096 111 11 11
