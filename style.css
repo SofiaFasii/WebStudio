@@ -462,6 +462,10 @@ body {
 .team__card-text {
   color: #757575;
 }
+.team__card img {
+  width: 100%;
+  background-size: contain;
+}
 .team .icons {
   padding-top: 26px;
 }
@@ -655,8 +659,6 @@ body {
   .team__card {
     width: 354px;
     height: 536px;
-    width: 100%;
-    background-size: contain;
   }
   .clients {
     padding: 60px 0;
